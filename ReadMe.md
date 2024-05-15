@@ -47,6 +47,20 @@ php artisan make:model Sheep --seed  --factory
 php artisan make:model Category -sf
 ```
 
+## Create a Seeder
+
+```shell
+php artisan make:seeder SingularVersionOfTableNameSeeder
+```
+
+### Examples:
+
+```shell
+php artisan make:seeder UserSeeder
+php artisan make:seeder HardwareSeeder
+php artisan make:seeder SheepSeeder
+```
+
 
 ## Create a Controller
 
